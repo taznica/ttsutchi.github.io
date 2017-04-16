@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    background-color: #363636;
+    margin: auto;
+}
+
+.title {
+    font-family: lobster;
+    font-size: 30px;
+    color: #ffffff;
+}
