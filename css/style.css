@@ -1,12 +1,30 @@
 @charset "UTF-8";
 
-body {
-    background-color: #363636;
-    margin: auto;
+html {
+    height: 100%;
 }
 
-.title {
-    font-family: lobster;
-    font-size: 30px;
-    color: #ffffff;
+body {
+    background-color: #363636;
+    height: 100%;
+}
+
+.name-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nickname {
+    font-family: 'Baloo', cursive;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.fullname {
+    font-family: 'Baloo', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
 }
