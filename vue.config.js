@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/taznica.github.io',
+    publicPath: '/',
     outputDir: 'docs',
     filenameHashing: false,
     productionSourceMap: false,
