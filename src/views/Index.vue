@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="index">
   </div>
 </template>
 
@@ -7,7 +7,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Home',
+  name: 'Index',
   components: { },
 });
 </script>
