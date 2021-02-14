@@ -1,30 +1,32 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <v-app>
+    <Index />
+  </v-app>
 </template>
 
+<script>
+  import Index from './views/Index.vue';
+
+  export default {
+    name: 'App',
+
+    components: {
+      Index,
+    },
+  };
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-#nav {
-  padding: 30px;
-}
+  #app {
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFF9;
+    color: #0F0F0F;
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  a.primary--text {
+    color: #0F0F0F !important;
+  }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
