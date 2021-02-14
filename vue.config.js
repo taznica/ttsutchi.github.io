@@ -4,4 +4,8 @@ module.exports = {
     assetsDir: '',
     filenameHashing: false,
     productionSourceMap: false,
+
+    transpileDependencies: [
+      'vuetify'
+    ]
 }
