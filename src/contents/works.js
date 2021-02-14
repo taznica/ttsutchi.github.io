@@ -46,7 +46,11 @@ export default [
             {
                 title: "Slide",
                 url: "https://drive.google.com/file/d/1zIEe2S7Qp04i_YRKGpsVbw_sgjVSf2hj/view?usp=sharing",
-            }
+            },
+            {
+                title: "Video",
+                url: "https://drive.google.com/file/d/1fMywBVoz0_VTly00Vdll77-mOguAx2wl/view?usp=sharing",
+            },
         ],
         techniques: [
             "Vue.js",
