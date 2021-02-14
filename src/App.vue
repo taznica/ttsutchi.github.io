@@ -5,15 +5,13 @@
 </template>
 
 <script>
-  import { Component, Vue } from 'vue-property-decorator';
   import Index from './views/Index.vue';
 
-  @Component({
+  export default {
+    name: 'App',
+
     components: {
       Index,
-    }
-  })
-
-  export default class App extends Vue { }
-
+    },
+  };
 </script>
