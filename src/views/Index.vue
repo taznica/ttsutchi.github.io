@@ -1,17 +1,31 @@
 <template>
-  <About/>
+    <div id="index" class="mt-6">
+        <v-container>
+            <About />
+            <v-divider class="ma-6" />
+            <History />
+            <v-divider class="ma-6" />
+            <Works />
+            <v-divider class="ma-6" />
+            <Publications />
+        </v-container>
+    </div>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import About from '../components/About.vue';
+<script>
+    import About from '../components/About.vue';
+    import History from '../components/History.vue';
+    import Works from '../components/Works.vue';
+    import Publications from '../components/Publications.vue';
 
-@Component({
-  components: {
-    About,
-  },
-})
+    export default {
+        name: 'Index',
 
-export default class Index extends Vue {}
-
+        components: {
+            About,
+            History,
+            Works,
+            Publications,
+        }
+    };
 </script>
