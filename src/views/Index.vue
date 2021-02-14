@@ -3,13 +3,15 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import About from '@/components/About.vue';
+import { Component, Vue } from 'vue-property-decorator';
+import About from '../components/About.vue';
 
-export default defineComponent({
-  name: 'Index',
+@Component({
   components: {
     About,
   },
-});
+})
+
+export default class Index extends Vue {}
+
 </script>
