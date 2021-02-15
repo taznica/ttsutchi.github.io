@@ -10,7 +10,7 @@
             </v-stepper-step>
             <v-stepper-content :step="1">
                 <h4 class="mb-2 font-weight-medium" id="description"><span v-html="event.description" /></h4>
-                <v-btn dark depressed color="amber" v-if="event.hasWork">詳細↓</v-btn>
+<!--                <v-btn dark depressed color="amber" v-if="event.hasWork">詳細↓</v-btn>-->
             </v-stepper-content>
         </v-stepper>
     </div>
