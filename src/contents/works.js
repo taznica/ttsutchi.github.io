@@ -26,10 +26,6 @@ export default [
                 title: "Video",
                 url: "https://drive.google.com/file/d/1pJ8bcMkzOE4JrW6CT-Xr9F3KnL6HBEG_/view?usp=sharing",
             },
-            {
-                title: "Code (GitHub)",
-                url: "https://github.com/taznica/gohoubi_app",
-            },
         ],
         techniques: [
             "Flutter",
