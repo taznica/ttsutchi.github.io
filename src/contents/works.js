@@ -14,7 +14,7 @@ export default [
     },
     {
         title: "Treap",
-        subtitle: "DA-TE APPs！2021",
+        subtitle: "DA-TE APPs！2021 (登壇)",
         description: "月ごとの自動積立によるハイクラスな旅館・ホテルの予約によって理想的な「自分へのご褒美」としての旅行を提供するサービス。リードエンジニアとして<b>Flutter</b>によるユーザ向け<b>モバイルアプリ</b>の実装を担当。Firebase+Stripeによる決済処理はプロトタイプとしてのみ実装。",
         imagePath: require("/src/assets/treap.png"),
         links: [
@@ -56,8 +56,21 @@ export default [
         ],
     },
     {
+        title: "youtube-thumbnail",
+        subtitle: " - ",
+        description: "YouTubeで再生している動画のサムネイル画像をプレイヤーの下部に表示しておけるGoogle Chrome拡張。<b>JavaScript</b>で実装。",
+        imagePath: require("/src/assets/youtube-thumbnail.jpg"),
+        links: [
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/chrome-extensions",
+            },
+        ],
+        techniques: [],
+    },
+    {
         title: "Augmented Readability",
-        subtitle: "インタラクション2020 / 卒業論文",
+        subtitle: "インタラクション2020  (プレミアム発表) / 卒業論文",
         description: "自然言語処理を行いて紙面の特定のテキストをプロジェクションによりハイライトさせることで、対象テキストの閲覧性や理解度を向上させる手法およびアプリケーション。Python, OpenCV, tesseract, StanfordNLPなどを用いて実装。",
         imagePath: require("/src/assets/ar.jpg"),
         links: [
@@ -70,7 +83,7 @@ export default [
     },
     {
         title: "SoTip",
-        subtitle: "DA-TE APPs！2020",
+        subtitle: "DA-TE APPs！2020 (最優秀賞)",
         description: "飲食店の従業員へ顧客から「いいね！」「ありがとう！」を送れるようにすることで従業員のモチベーションアップと顧客エンゲージメントの可視化を行うサービス。Webフロントエンジニアとして<b>Vue.js</b>による店舗オーナー向けWebダッシュボードサイトを実装。Firebase Cloud Functionsを用いたデータベース・サーバサイドとのやり取り、Firebase Authenticationを用いた認証・認可も実装。",
         imagePath: require("/src/assets/sotip.png"),
         links: [
@@ -90,7 +103,7 @@ export default [
     },
     {
         title: "Tabletop ARrietty",
-        subtitle: "IVRC2019",
+        subtitle: "IVRC2019 (審査員特別賞)",
         description: "360度カメラ映像やAR表示を組み合わせることで、小人としてVR体験するHMD装着者とスマートフォンを利用してAR体験する非HMD装着者が、別々の視点からバーチャル空間を共有する対戦型コンテンツ。<b>Unity</b>とARKitを用いたスマートフォンARを実装。",
         imagePath: require("/src/assets/arrietty.jpg"),
         links: [
@@ -102,8 +115,8 @@ export default [
         techniques: [],
     },
     {
-        title: "蠢刺青（シュンシセイ）",
-        subtitle: "IVRC2019",
+        title: "蠢刺青(シュンシセイ)",
+        subtitle: "IVRC2019 (予選大会進出)",
         description: "皮膚感覚を伴って身体の表面をまるで生きているかのように蠢く刺青である「蠢刺青（シュンシセイ）」による体験および人と蠢刺青とのインタラクション。プロジェクタを用いて投影する映像コンテンツを<b>Unity</b>によって実装。",
         imagePath: require("/src/assets/shunshisei.jpg"),
         links: [
@@ -115,8 +128,25 @@ export default [
         techniques: [],
     },
     {
+        title: "done2esa",
+        subtitle: " - ",
+        description: "その日のGoogleカレンダーの予定とSwarmのチェックイン履歴を日報としてまとめてesa.ioに投稿できるCLIツール。Pythonを用いて実装。各サービスのAPIを叩いている。",
+        imagePath: require("/src/assets/done2esa.jpeg"),
+        links: [
+            {
+                title: "Video",
+                url: "https://drive.google.com/file/d/1EDY6iTTKV2exoK_1dQigE0MHzpavIvfO/view?usp=sharing",
+            },
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/done2esa",
+            }
+        ],
+        techniques: [],
+    },
+    {
         title: "ShearSheet",
-        subtitle: "ISS2019",
+        subtitle: "ISS2019 (Best Demo Award)",
         description: "導電性素材を貼付した透明シートをタッチスクリーン上でスライドさせること、で通常のタッチ入力に影響を与えずにジョイスティックのような速度制御による機構を追加のセンサ無しで付加する新たなユーザインタフェース。<b>Unity</b>による、ペイントや動画プレイヤーといったデモアプリケーションの実装を担当。",
         imagePath: require("/src/assets/shearsheet.png"),
         links: [
@@ -137,7 +167,7 @@ export default [
     },
     {
         title: "Life Leaf",
-        subtitle: " JPHACKS2019",
+        subtitle: " JPHACKS2019 (インフィニオン奨励賞)",
         description: "デスクワークにおける座り過ぎを解消する、観葉植物型デバイス・クッション型デバイスおよびWebアプリ「Life Leaf」を開発。<b>Vue.js</b>を用いたWebアプリ開発、Firebaseを用いたデータベース、センサから値を得るためのAPI、ホスティング等のサーバサイドの実装を担当した。",
         imagePath: require("/src/assets/lifeleaf.jpeg"),
         links: [
