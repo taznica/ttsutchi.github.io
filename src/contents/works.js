@@ -56,6 +56,19 @@ export default [
         ],
     },
     {
+        title: "youtube-thumbnail",
+        subtitle: " - ",
+        description: "YouTubeで再生している動画のサムネイル画像をプレイヤーの下部に表示しておけるGoogle Chrome拡張。<b>JavaScript</b>で実装。",
+        imagePath: require("/src/assets/youtube-thumbnail.jpg"),
+        links: [
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/chrome-extensions",
+            },
+        ],
+        techniques: [],
+    },
+    {
         title: "Augmented Readability",
         subtitle: "インタラクション2020 / 卒業論文",
         description: "自然言語処理を行いて紙面の特定のテキストをプロジェクションによりハイライトさせることで、対象テキストの閲覧性や理解度を向上させる手法およびアプリケーション。Python, OpenCV, tesseract, StanfordNLPなどを用いて実装。",
@@ -110,6 +123,23 @@ export default [
             {
                 title: "Website and Video (IVRC2019)",
                 url: "http://ivrc.net/archive/%E8%A0%A2%E5%88%BA%E9%9D%922019/",
+            }
+        ],
+        techniques: [],
+    },
+    {
+        title: "done2esa",
+        subtitle: " - ",
+        description: "その日のGoogleカレンダーの予定とSwarmのチェックイン履歴を日報としてまとめてesa.ioに投稿できるCLIツール。Pythonを用いて実装。各サービスのAPIを叩いている。",
+        imagePath: require("/src/assets/done2esa.jpeg"),
+        links: [
+            {
+                title: "Video",
+                url: "https://drive.google.com/file/d/1EDY6iTTKV2exoK_1dQigE0MHzpavIvfO/view?usp=sharing",
+            },
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/done2esa",
             }
         ],
         techniques: [],
