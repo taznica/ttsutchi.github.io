@@ -1,6 +1,6 @@
 <template>
     <div id="history">
-        <h2 class="font-weight-bold text-center pb-16">
+        <h2 class="font-weight-bold text-center pb-8">
             History
         </h2>
         <v-stepper vertical class="elevation-0" id="stepper" v-for="(event, index) in events" :key="index">
