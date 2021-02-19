@@ -9,15 +9,26 @@
         </v-col>
         <v-col sm="12" md="6">
           <div class="justify-center">
-          <h1 class="font-weight-bold pb-4">
-            Taichi Tsuchida / 土田 太一
-          </h1>
-          <ul>
-            <li class="py-2">1996年生まれ</li>
-            <li class="py-2">仙台市在住</li>
-            <li class="py-2">東北大学 大学院情報科学研究科<br>システム情報科学専攻 <a href="https://www.icd.riec.tohoku.ac.jp/">北村・高嶋研究室</a> 修士1年</li>
-            <li class="py-2"><a href="https://life-is-tech.com/">Life is Tech !</a> メンター</li>
-          </ul>
+            <h1 class="font-weight-bold">
+              Taichi Tsuchida / 土田 太一
+            </h1>
+            <div class="pb-2">
+              <v-btn icon href="mailto:tailegog@gmail.com" target="_blank">
+                <v-icon>mdi-gmail</v-icon>
+              </v-btn>
+              <v-btn icon href="https://www.facebook.com/taichi.taz.tsuchida" target="_blank">
+                <v-icon>mdi-facebook</v-icon>
+              </v-btn>
+              <v-btn icon href="https://github.com/taznica" target="_blank">
+                <v-icon>mdi-github</v-icon>
+              </v-btn>
+            </div>
+            <ul>
+              <li class="py-2">1996年生まれ</li>
+              <li class="py-2">仙台市在住</li>
+              <li class="py-2">東北大学 大学院情報科学研究科<br>システム情報科学専攻 <a href="https://www.icd.riec.tohoku.ac.jp/">北村・高嶋研究室</a> 修士1年</li>
+              <li class="py-2"><a href="https://life-is-tech.com/">Life is Tech !</a> メンター</li>
+            </ul>
           </div>
         </v-col>
       </v-row>
