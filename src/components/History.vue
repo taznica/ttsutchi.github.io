@@ -1,6 +1,6 @@
 <template>
     <div id="history">
-        <h2 class="font-weight-bold text-center pb-16">
+        <h2 class="font-weight-bold text-center pb-8">
             History
         </h2>
         <v-stepper vertical class="elevation-0" id="stepper" v-for="(event, index) in events" :key="index">
@@ -9,7 +9,7 @@
                 <h3>{{ event.title }}</h3>
             </v-stepper-step>
             <v-stepper-content :step="1">
-                <h4 class="mb-2 font-weight-medium" id="description"><span v-html="event.description" /></h4>
+                <h4 class="font-weight-medium" id="description"><span v-html="event.description" /></h4>
 <!--                <v-btn dark depressed color="amber" v-if="event.hasWork">詳細↓</v-btn>-->
             </v-stepper-content>
         </v-stepper>
