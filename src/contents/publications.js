@@ -1,16 +1,16 @@
 export default [
     "藤田和之，Mengting Huang，高嶋和毅，<u>土田太一</u>，真鍋宏幸，北村喜文．ShearSheet: 静電容量タッチパネルに装着可能な透明シートを用いた剪断入力インタフェース．情報処理学会論文誌，to appear.",
 
-    "Mengting Huang, Kazuyuki Fujita, Kazuki Takashima, <u>Taichi Tsuchida</u>, Hiroyuki Manabe, and Yoshifumi Kitamura. 2019. ShearSheet: Low-Cost Shear Force Input with Elastic Feedback for Augmenting Touch Interaction. In Proceedings of the 2019 ACM International Conference on Interactive Surfaces and Spaces (ISS '19). Association for Computing Machinery, New York, NY, USA, 77–87. DOI:<a href='https://doi.org/10.1145/3343055.3359717'>https://doi.org/10.1145/3343055.3359717</a>. " +
-    "<b><i>Best Demo Award</i></b>.",
+    "<u>土田太一</u>，藤田和之，中原和洋，山田茂雄，高嶋和毅，北村喜文．机上へのプロジェクションによる紙面テキストハイライト手法．インタラクション2020論文集，pp. 909-911, 2020年3月．<b><i>プレミアム発表</i></b>. <br>" +
+    "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-30.html'>https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-30.html</a> <br>" +
+    "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-30.pdf'>https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-30.pdf</a>",
 
     "中原和洋，藤田和之，<u>土田太一</u>，高嶋和毅，北村喜文．バーチャルな影による奥行き錯覚を用いた付箋紙の移動操作と類似度可視化インタフェース．インタラクション2020論文集，pp. 848-851, 2020年3月．<b><i>プレミアム発表</i></b>. <br>" +
     "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-12.html'>https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-12.html</a> <br>" +
     "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-12.pdf'>https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-12.pdf</a>",
 
-    "<u>土田太一</u>，藤田和之，中原和洋，山田茂雄，高嶋和毅，北村喜文．机上へのプロジェクションによる紙面テキストハイライト手法．インタラクション2020論文集，pp. 909-911, 2020年3月．<b><i>プレミアム発表</i></b>. <br>" +
-    "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-30.html'>https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-30.html</a> <br>" +
-    "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-30.pdf'>https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-30.pdf</a>",
+    "Mengting Huang, Kazuyuki Fujita, Kazuki Takashima, <u>Taichi Tsuchida</u>, Hiroyuki Manabe, and Yoshifumi Kitamura. 2019. ShearSheet: Low-Cost Shear Force Input with Elastic Feedback for Augmenting Touch Interaction. In Proceedings of the 2019 ACM International Conference on Interactive Surfaces and Spaces (ISS '19). Association for Computing Machinery, New York, NY, USA, 77–87. DOI:<a href='https://doi.org/10.1145/3343055.3359717'>https://doi.org/10.1145/3343055.3359717</a>. " +
+    "<b><i>Best Demo Award</i></b>.",
 
     "Shotaro Ichikawa, Aoi Suzuki, Isamu Endo, Yuhei Osaka, Pascal Chiu, <u>Taichi Tsuchida</u>, and Takayuki Tanno. Tabletop ARrietty. 第24回日本バーチャルリアリティ学会大会論文集, 3D-5, September 2019. <b><i>審査員特別賞</i></b>.<br>" +
     "<a href='http://ivrc.net/archive/tabletop-arrietty2019/'>http://ivrc.net/archive/tabletop-arrietty2019/</a> <br>" +
