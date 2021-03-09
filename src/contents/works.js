@@ -1,5 +1,30 @@
 export default [
     {
+        title: "ShearSheet",
+        subtitle: "情報処理学会2021 / ISS2019 (Best Demo Award)",
+        description: "導電性素材を貼付した透明シートをタッチスクリーン上でスライドさせることで、通常のタッチ入力に影響を与えずにジョイスティックのような速度制御による入力を追加のセンサ無しで付加する新たなユーザインタフェース。<b>Unity</b>による、ペイントや動画プレイヤーといったデモアプリケーションの実装を担当。",
+        imagePath: require("/src/assets/shearsheet.png"),
+        links: [
+            {
+                title: "Paper (情報処理学会2021)",
+                url: "http://doi.org/10.20729/00209337",
+            },
+            {
+                title: "Paper (ISS2019)",
+                url: "https://doi.org/10.1145/3343055.3359717",
+            },
+            {
+                title: "Video",
+                url: "https://www.youtube.com/watch?v=17sIGr6DT78",
+            },
+            {
+                title: "Article (ITmedia NEWS)",
+                url: "https://www.itmedia.co.jp/news/articles/1911/27/news042.html",
+            }
+        ],
+        techniques: [],
+    },
+    {
         title: "Portfolio",
         subtitle: " - ",
         description: "ポートフォリオサイト。<b>Vue.js</b>、Vuetifyを用いて実装。ホスティングはGitHub Pagesを用いている。Vue.js v3 + TypeScriptに移行予定。",
@@ -140,27 +165,6 @@ export default [
             {
                 title: "Code (GitHub)",
                 url: "https://github.com/taznica/done2esa",
-            }
-        ],
-        techniques: [],
-    },
-    {
-        title: "ShearSheet",
-        subtitle: "ISS2019 (Best Demo Award)",
-        description: "導電性素材を貼付した透明シートをタッチスクリーン上でスライドさせることで、通常のタッチ入力に影響を与えずにジョイスティックのような速度制御による入力を追加のセンサ無しで付加する新たなユーザインタフェース。<b>Unity</b>による、ペイントや動画プレイヤーといったデモアプリケーションの実装を担当。",
-        imagePath: require("/src/assets/shearsheet.png"),
-        links: [
-            {
-                title: "Paper (ISS2019)",
-                url: "https://doi.org/10.1145/3343055.3359717",
-            },
-            {
-                title: "Video",
-                url: "https://www.youtube.com/watch?v=17sIGr6DT78",
-            },
-            {
-                title: "Article (ITmedia NEWS)",
-                url: "https://www.itmedia.co.jp/news/articles/1911/27/news042.html",
             }
         ],
         techniques: [],
