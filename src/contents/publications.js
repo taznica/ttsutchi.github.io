@@ -9,7 +9,7 @@ export default [
     "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-12.html'>https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-12.html</a> <br>" +
     "<a href='https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-12.pdf'>https://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-12.pdf</a>",
 
-    "Mengting Huang, Kazuyuki Fujita, Kazuki Takashima, <u>Taichi Tsuchida</u>, Hiroyuki Manabe, and Yoshifumi Kitamura. 2019. ShearSheet: Low-Cost Shear Force Input with Elastic Feedback for Augmenting Touch Interaction. In Proceedings of the 2019 ACM International Conference on Interactive Surfaces and Spaces (ISS '19). Association for Computing Machinery, New York, NY, USA, 77–87. DOI:<a href='https://doi.org/10.1145/3343055.3359717'>https://doi.org/10.1145/3343055.3359717</a>. " +
+    "Mengting Huang, Kazuyuki Fujita, Kazuki Takashima, <u>Taichi Tsuchida</u>, Hiroyuki Manabe, Yoshifumi Kitamura. ShearSheet: Low-Cost Shear Force Input with Elastic Feedback for Augmenting Touch Interaction. Proc. of the 2019 ACM Interactive Surfaces and Spaces (ISS '19), pp. 77-87, Nov. 2019. DOI:<a href='https://doi.org/10.1145/3343055.3359717'>https://doi.org/10.1145/3343055.3359717</a>. " +
     "<b><i>Best Demo Award</i></b>.",
 
     "Shotaro Ichikawa, Aoi Suzuki, Isamu Endo, Yuhei Osaka, Pascal Chiu, <u>Taichi Tsuchida</u>, and Takayuki Tanno. Tabletop ARrietty. 第24回日本バーチャルリアリティ学会大会論文集, 3D-5, September 2019. <b><i>審査員特別賞</i></b>.<br>" +
