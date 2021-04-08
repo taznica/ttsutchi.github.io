@@ -9,9 +9,9 @@
         </v-col>
         <v-col sm="12" md="6">
           <div class="justify-center">
-            <h1 class="font-weight-bold">
+            <div class="font-weight-bold text-md-h4 text-h5">
               Taichi Tsuchida / 土田 太一
-            </h1>
+            </div>
             <div class="pb-2">
               <v-btn icon href="mailto:tailegog@gmail.com" target="_blank">
                 <v-icon>mdi-gmail</v-icon>
