@@ -1,18 +1,20 @@
 <template>
     <div id="history">
-        <h2 class="font-weight-bold text-center pb-8">
+        <h1 class="font-weight-bold text-center pb-8">
             History
-        </h2>
-        <v-stepper vertical class="elevation-0" id="stepper" v-for="(event, index) in events" :key="index">
-            <v-stepper-step :complete="true" :step="1" color="amber">
-                <body class="mb-2">{{ event.date }}</body>
-                <h3>{{ event.title }}</h3>
-            </v-stepper-step>
-            <v-stepper-content :step="1">
-                <h4 class="font-weight-medium" id="description"><span v-html="event.description" /></h4>
-<!--                <v-btn dark depressed color="amber" v-if="event.hasWork">詳細↓</v-btn>-->
-            </v-stepper-content>
-        </v-stepper>
+        </h1>
+<!--        <v-timeline dense class="pl-sm-8 pr-sm-8 pl-md-16 pr-md-16">-->
+        <v-timeline>
+            <v-timeline-item fill-dot small v-for="(event, index) in events" :key="index" :color="event.color">
+                <h3 class="font-weight-medium" slot="opposite">
+                    {{ event.date }}
+                </h3>
+                <h2 class="mb-2">
+                    {{ event.title }}
+                </h2>
+                <span v-html="event.description" />
+            </v-timeline-item>
+        </v-timeline>
     </div>
 </template>
 
