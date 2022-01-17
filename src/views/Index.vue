@@ -2,11 +2,11 @@
     <div id="index" class="mt-6">
         <v-container>
             <About />
-            <v-divider class="mt-16 mb-8" />
+            <v-divider class="mt-16 mb-16" />
             <History />
-            <v-divider class="mt-16 mb-8" />
+            <v-divider class="mt-16 mb-16" />
             <Works />
-            <v-divider class="mt-16 mb-8" />
+            <v-divider class="mt-16 mb-16" />
             <Publications />
         </v-container>
     </div>
