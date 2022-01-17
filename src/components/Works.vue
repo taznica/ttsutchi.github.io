@@ -1,8 +1,8 @@
 <template>
     <div id="works">
-        <h2 class="font-weight-bold text-center pb-16">
+        <h1 class="font-weight-bold text-center pb-16">
             Works
-        </h2>
+        </h1>
         <v-card outlined class="mx-auto mb-8" v-for="(work, index) in works" :key="index">
             <v-container>
                 <v-row justify="center" align="center">
