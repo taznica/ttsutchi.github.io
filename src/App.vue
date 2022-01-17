@@ -18,7 +18,7 @@
 
 <style>
   #app {
-    background-color: #FFFFF9;
+    background-color: #FFFFFD;
     color: #0F0F0F;
     margin: 0 auto;
   }
