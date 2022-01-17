@@ -17,12 +17,16 @@
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
   #app {
-    font-family: 'Lato', sans-serif;
     background-color: #FFFFF9;
     color: #0F0F0F;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 960px) {
+    #app {
+      width: 100%;
+    }
   }
 
   a.primary--text {
