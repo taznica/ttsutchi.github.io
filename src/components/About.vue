@@ -26,7 +26,7 @@
             <ul>
               <li class="py-2">1996年生まれ</li>
               <li class="py-2">仙台市在住</li>
-              <li class="py-2">東北大学 大学院情報科学研究科<br>システム情報科学専攻 <a href="https://www.icd.riec.tohoku.ac.jp/">北村・高嶋研究室</a> 修士1年</li>
+              <li class="py-2">東北大学 大学院情報科学研究科<br>システム情報科学専攻 <a href="https://www.icd.riec.tohoku.ac.jp/">北村・高嶋研究室</a> 修士2年</li>
               <li class="py-2"><a href="https://life-is-tech.com/">Life is Tech !</a> メンター</li>
             </ul>
           </div>
