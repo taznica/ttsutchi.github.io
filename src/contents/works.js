@@ -1,5 +1,19 @@
 export default [
     {
+        title: "krsr2img (WIP)",
+        subtitle: " - ",
+        description: "クラシルで観ることができる料理レシピ動画は、料理中にはプレイヤー上での巻き戻し等の操作がしづらい。解決のため、動画中から数フレームを抜き出しスライドショーにすることで1操作のみで前後の過程を確認できるようにするアプリケーションを実装。文字が含まれるフレームと、前後のフレームと比べて差分が大きいフレームを選択し表示するようにしている。出力される枚数がやや多い、出力までに時間がかかるといった課題がある。",
+        imagePath: require("/src/assets/krsr2img.png"),
+        // links: [
+        //     {
+        //         title: " - ",
+        //         url: "",
+        //     }
+        // ],
+        role: "(個人開発)",
+        techniques: "Python、OpenCV、tesseract",
+    },
+    {
         title: "ShearSheet",
         subtitle: "情報処理学会2021 / ISS2019 (Best Demo Award)",
         description: "導電性素材を貼付した透明シートをタッチスクリーン上でスライドさせることで、通常のタッチ入力に影響を与えずにジョイスティックのような速度制御による入力を追加のセンサ無しで付加する新たなユーザインタフェース。<b>Unity</b>による、ペイントや動画プレイヤーといったデモアプリケーションの実装を担当。",
@@ -185,5 +199,47 @@ export default [
         ],
         role: "Webフロントエンド",
         techniques: "Vue.js、Vuetify、Chart.js、Node.js、Firebase",
+    },
+    {
+        title: "Joy-Conでの家電操作",
+        subtitle: " - ",
+        description: "Nintendo SwitchのJoy-Conをリモコン代わりに使用することで家電を操作するシステム。Raspberry PiにBluetooth接続したJoy-Conから入力を受け取り、対応する赤外線信号を家電に向けて発信することで操作する。",
+        imagePath: require("/src/assets/joycon.jpeg"),
+        links: [
+            {
+                title: "Qiita",
+                url: "https://qiita.com/taznica/items/a4f5123f84641e4cac40",
+            },
+        ],
+        role: "(個人開発)",
+        techniques: "Python、Raspberry Pi",
+    },
+    {
+        title: "RealmSample",
+        subtitle: " - ",
+        description: "データベースライブラリRealmを使用したサンプルiOSアプリとして作成したタスク管理アプリ。",
+        imagePath: require("/src/assets/preparation.png"),
+        links: [
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/RealmSample",
+            },
+        ],
+        role: "(個人開発)",
+        techniques: "Swift、iOS",
+    },
+    {
+        title: "Discount",
+        subtitle: " - ",
+        description: "買い物を支援するiOSアプリ。商品の価格と割引率を入力すると割引後の価格や複数商品の総計を計算してくれる。",
+        imagePath: require("/src/assets/preparation.png"),
+        links: [
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/Discount",
+            },
+        ],
+        role: "(個人開発)",
+        techniques: "Swift、iOS",
     },
 ]
