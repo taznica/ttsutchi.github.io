@@ -9,10 +9,18 @@
                 <h3 class="font-weight-medium" slot="opposite">
                     {{ event.date }}
                 </h3>
-                <h2 class="mb-2">
+                <template v-if="index%2===0">
+                  <h2 class="mb-2">
+                      {{ event.title }}
+                  </h2>
+                  <p v-html="event.description" />
+                </template>
+                <template v-else>
+                  <h2 class="mb-2 text-right">
                     {{ event.title }}
-                </h2>
-                <span v-html="event.description" />
+                  </h2>
+                  <p class="text-right" v-html="event.description" />
+                </template>
             </v-timeline-item>
         </v-timeline>
     </div>

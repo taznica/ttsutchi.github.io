@@ -1,5 +1,19 @@
 export default [
     {
+        title: "krsr2img (WIP)",
+        subtitle: " - ",
+        description: "クラシルで観ることができる料理レシピ動画は、料理中にはプレイヤー上での巻き戻し等の操作がしづらい。解決のため、動画中から数フレームを抜き出しスライドショーにすることで1操作のみで前後の過程を確認できるようにするアプリケーションを実装。文字が含まれるフレームと、前後のフレームと比べて差分が大きいフレームを選択し表示するようにしている。出力される枚数がやや多い、出力までに時間がかかるといった課題がある。",
+        imagePath: require("/src/assets/krsr2img.png"),
+        // links: [
+        //     {
+        //         title: " - ",
+        //         url: "",
+        //     }
+        // ],
+        role: "(個人開発)",
+        techniques: "Python、OpenCV、tesseract",
+    },
+    {
         title: "ShearSheet",
         subtitle: "情報処理学会2021 / ISS2019 (Best Demo Award)",
         description: "導電性素材を貼付した透明シートをタッチスクリーン上でスライドさせることで、通常のタッチ入力に影響を与えずにジョイスティックのような速度制御による入力を追加のセンサ無しで付加する新たなユーザインタフェース。<b>Unity</b>による、ペイントや動画プレイヤーといったデモアプリケーションの実装を担当。",
@@ -22,12 +36,13 @@ export default [
                 url: "https://www.itmedia.co.jp/news/articles/1911/27/news042.html",
             }
         ],
-        techniques: [],
+        role: "モバイルアプリ",
+        techniques: "Unity",
     },
     {
         title: "Portfolio",
         subtitle: " - ",
-        description: "ポートフォリオサイト。<b>Vue.js</b>、Vuetifyを用いて実装。ホスティングはGitHub Pagesを用いている。Vue.js v3 + TypeScriptに移行予定。",
+        description: "ポートフォリオサイト。",
         imagePath: require("/src/assets/portfolio.png"),
         links: [
             {
@@ -35,7 +50,8 @@ export default [
                 url: "https://github.com/taznica/taznica.github.io",
             }
         ],
-        techniques: [],
+        role: "(個人開発)",
+        techniques: "Vue.js、Vuetify、GitHub Pages",
     },
     {
         title: "Treap",
@@ -57,16 +73,13 @@ export default [
             },
 
         ],
-        techniques: [
-            "Flutter",
-            "(Firebase)",
-            "(Stripe)",
-        ],
+        role: "モバイルアプリ",
+        techniques: "Flutter",
     },
     {
         title: "irodori",
         subtitle: " - ",
-        description: "<a href='https://github.com/marp-team/marp-vscode'>Marp for VS Code</a> のカスタムテーマ。<b>Sass</b>で実装。",
+        description: "<a href='https://github.com/marp-team/marp-vscode'>Marp for VS Code</a> のカスタムテーマ。",
         imagePath: require("/src/assets/irodori.png"),
         links: [
             {
@@ -74,11 +87,8 @@ export default [
                 url: "https://github.com/taznica/marp-themes",
             },
         ],
-        techniques: [
-            "Flutter",
-            "(Firebase)",
-            "(Stripe)",
-        ],
+        role: "(個人開発)",
+        techniques: "Sass",
     },
     {
         title: "youtube-thumbnail",
@@ -91,12 +101,13 @@ export default [
                 url: "https://github.com/taznica/chrome-extensions",
             },
         ],
-        techniques: [],
+        role: "(個人開発)",
+        techniques: "JavaScript",
     },
     {
         title: "Augmented Readability",
         subtitle: "インタラクション2020  (プレミアム発表) / 卒業論文",
-        description: "自然言語処理を行いて紙面の特定のテキストをプロジェクションによりハイライトさせることで、対象テキストの閲覧性や理解度を向上させる手法およびアプリケーション。Python, OpenCV, tesseract, StanfordNLPなどを用いて実装。",
+        description: "自然言語処理を行いて紙面の特定のテキストをプロジェクションによりハイライトさせることで、対象テキストの閲覧性や理解度を向上させる手法およびアプリケーション。",
         imagePath: require("/src/assets/ar.jpg"),
         links: [
             {
@@ -104,12 +115,13 @@ export default [
                 url: "https://www.interaction-ipsj.org/proceedings/2020/data/bib/3B-30.html",
             }
         ],
-        techniques: [],
+        role: "(個人開発)",
+        techniques: "Python、OpenCV、tesseract、StanfordNLP",
     },
     {
         title: "SoTip",
         subtitle: "DA-TE APPs！2020 (最優秀賞)",
-        description: "飲食店の従業員へ顧客から「いいね！」「ありがとう！」を送れるようにすることで従業員のモチベーションアップと顧客エンゲージメントの可視化を行うサービス。Webフロントエンジニアとして<b>Vue.js</b>による店舗オーナー向けWebダッシュボードサイトを実装。Firebase Cloud Functionsを用いたデータベース・サーバサイドとのやり取り、Firebase Authenticationを用いた認証・認可も実装。",
+        description: "飲食店の従業員へ顧客から「いいね！」「ありがとう！」を送れるようにすることで従業員のモチベーションアップと顧客エンゲージメントの可視化を行うサービス。Webフロントエンジニアとして<b>Vue.js</b>による店舗オーナー向けWebダッシュボードサイトを実装。α版では、Webサイト実装に加えてFirebase Cloud Functionsを用いたAPI・データベースとのやり取り、Firebase Hostingによるホスティングを実装。",
         imagePath: require("/src/assets/sotip.png"),
         links: [
             {
@@ -121,10 +133,8 @@ export default [
                 url: "https://drive.google.com/file/d/1fMywBVoz0_VTly00Vdll77-mOguAx2wl/view?usp=sharing",
             },
         ],
-        techniques: [
-            "Vue.js",
-            "Vuetify",
-        ],
+        role: "Webフロントエンド",
+        techniques: "Vue.js、Vuetify、Node.js",
     },
     {
         title: "Tabletop ARrietty",
@@ -137,7 +147,8 @@ export default [
                 url: "http://ivrc.net/archive/tabletop-arrietty2019/",
             }
         ],
-        techniques: [],
+        role: "モバイルアプリ（一部）",
+        techniques: "Unity",
     },
     {
         title: "蠢刺青(シュンシセイ)",
@@ -150,7 +161,8 @@ export default [
                 url: "http://ivrc.net/archive/%E8%A0%A2%E5%88%BA%E9%9D%922019/",
             }
         ],
-        techniques: [],
+        role: "映像投影アプリケーション、映像コンテンツ",
+        techniques: "Unity",
     },
     {
         title: "done2esa",
@@ -167,12 +179,13 @@ export default [
                 url: "https://github.com/taznica/done2esa",
             }
         ],
-        techniques: [],
+        role: "(個人開発)",
+        techniques: "Python",
     },
     {
         title: "Life Leaf",
         subtitle: " JPHACKS2019 (インフィニオン奨励賞)",
-        description: "デスクワークにおける座り過ぎを解消する、観葉植物型デバイス・クッション型デバイスおよびWebアプリ「Life Leaf」を開発。<b>Vue.js</b>を用いたWebアプリ開発、Firebaseを用いたデータベース、センサから値を得るためのAPI、ホスティング等のサーバサイドの実装を担当した。",
+        description: "デスクワークにおける座り過ぎを解消する、観葉植物型デバイス・クッション型デバイスおよびWebアプリ「Life Leaf」を開発。<b>Vue.js</b>と<b>Chart.js</b>を用いたWebアプリ、Firebase Cloud Functionsを介してセンサから値を得る処理、ホスティングの実装を担当した。",
         imagePath: require("/src/assets/lifeleaf.jpeg"),
         links: [
             {
@@ -184,6 +197,49 @@ export default [
                 url: "https://qiita.com/taznica/private/4238317898e4c993fc84",
             },
         ],
-        techniques: [],
+        role: "Webフロントエンド",
+        techniques: "Vue.js、Vuetify、Chart.js、Node.js、Firebase",
+    },
+    {
+        title: "Joy-Conでの家電操作",
+        subtitle: " - ",
+        description: "Nintendo SwitchのJoy-Conをリモコン代わりに使用することで家電を操作するシステム。Raspberry PiにBluetooth接続したJoy-Conから入力を受け取り、対応する赤外線信号を家電に向けて発信することで操作する。",
+        imagePath: require("/src/assets/joycon.jpeg"),
+        links: [
+            {
+                title: "Qiita",
+                url: "https://qiita.com/taznica/items/a4f5123f84641e4cac40",
+            },
+        ],
+        role: "(個人開発)",
+        techniques: "Python、Raspberry Pi",
+    },
+    {
+        title: "RealmSample",
+        subtitle: " - ",
+        description: "データベースライブラリRealmを使用したサンプルiOSアプリとして作成したタスク管理アプリ。",
+        imagePath: require("/src/assets/preparation.png"),
+        links: [
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/RealmSample",
+            },
+        ],
+        role: "(個人開発)",
+        techniques: "Swift、iOS",
+    },
+    {
+        title: "Discount",
+        subtitle: " - ",
+        description: "買い物を支援するiOSアプリ。商品の価格と割引率を入力すると割引後の価格や複数商品の総計を計算してくれる。",
+        imagePath: require("/src/assets/preparation.png"),
+        links: [
+            {
+                title: "Code (GitHub)",
+                url: "https://github.com/taznica/Discount",
+            },
+        ],
+        role: "(個人開発)",
+        techniques: "Swift、iOS",
     },
 ]

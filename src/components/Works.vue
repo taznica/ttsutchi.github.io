@@ -13,7 +13,10 @@
                         <h2>{{ work.title }}</h2>
                         <h4 class="mb-2 font-weight-medium">{{ work.subtitle }}</h4>
                         <p><span v-html="work.description" /></p>
-
+                        <span>担当：</span>
+                        <p class="font-weight-bold">{{ work.role }}</p>
+                        <span>技術：</span>
+                        <p class="font-weight-bold">{{ work.techniques }}</p>
                         <v-row justify="center" align="center">
                             <v-col>
                                 <a target="_blank" rel="noopener noreferrer" v-for="(link, index) in work.links" :key="index" :href="link.url">
@@ -22,13 +25,6 @@
                                 </v-btn>
                                 </a>
                             </v-col>
-<!--                            <v-col align="right">-->
-<!--                                <div>-->
-<!--                                    <div v-for="(technique, index) in work.techniques" :key="index">-->
-<!--                                        {{ technique }}-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </v-col>-->
                         </v-row>
                     </v-col>
                 </v-row>
